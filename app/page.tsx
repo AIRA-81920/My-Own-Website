@@ -136,8 +136,11 @@ export default function Page() {
                                     className="px-8 py-3 bg-orange-500 text-black font-semibold hover:bg-orange-400 transition-colors rounded-[4px]"
                                     data-oid="p8aczuq"
                                     onClick={() =>
-                                        (window.location.href =
-                                            'https://github.com/AIRA-81920?tab=repositories')
+                                        window.open(
+                                            'https://github.com/AIRA-81920?tab=projects',
+                                            '_blank',
+                                            'noopener,noreferrer',
+                                        )
                                     }
                                 >
                                     查看项目
@@ -145,6 +148,9 @@ export default function Page() {
                                 <button
                                     className="px-8 py-3 border border-orange-500 text-orange-400 rounded hover:bg-orange-500 hover:text-black transition-colors"
                                     data-oid=".nnehwr"
+                                    onClick={() =>
+                                        (window.location.href = 'https://www.minecraft.net/')
+                                    }
                                 >
                                     我的世界
                                 </button>
