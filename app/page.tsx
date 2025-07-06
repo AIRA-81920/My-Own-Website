@@ -135,8 +135,10 @@ export default function Page() {
                                 <button
                                     className="px-8 py-3 bg-orange-500 text-black font-semibold hover:bg-orange-400 transition-colors rounded-[4px]"
                                     data-oid="p8aczuq"
-                                    href="https://github.com/AIRA-81920?tab=repositories"
-                                    target="_blank"
+                                    onClick={() =>
+                                        (window.location.href =
+                                            'https://github.com/AIRA-81920?tab=repositories')
+                                    }
                                 >
                                     查看项目
                                 </button>
