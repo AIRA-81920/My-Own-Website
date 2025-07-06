@@ -1,25 +1,3 @@
-# Onlook Starter Template
-
-<p align="center">
-  <img src="app/favicon.ico" />
-</p>
-
-This is an [Onlook](https://onlook.com/) project set up with
-[Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/) and
-[ShadCN](https://ui.shadcn.com).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in Onlook to see the result.
+#一个使用onlook辅助创建的一个个人网站
+灵感来源于“日冕工作室”→https://corona.studio/
+（主页实在是太棒了，又有趣又好看；玩MC的各位也可以多多支持他们的LauncherX qwq）
